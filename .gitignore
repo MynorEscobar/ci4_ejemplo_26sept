@@ -39,9 +39,9 @@ writable/uploads/*
 .phpunit.result.cache
 
 # Configuración sensible
-app/config/config.php
-app/config/database.php
-app/config/email.php
+#app/config/config.php
+#app/config/database.php
+#app/config/email.php
 
 
 # =========================
