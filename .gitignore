@@ -1,0 +1,63 @@
+# =========================
+# Archivos del sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Configuración de IDE/Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Dependencias
+# =========================
+vendor/
+node_modules/
+
+# =========================
+# CodeIgniter 4
+# =========================
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+
+# Dejar un index.html vacío para seguridad
+!writable/cache/index.html
+!writable/logs/index.html
+!writable/session/index.html
+!writable/uploads/index.html
+
+# =========================
+# Archivos de entorno
+# =========================
+.env
+.env.*
+.phpunit.result.cache
+
+# Configuración sensible
+app/config/config.php
+app/config/database.php
+app/config/email.php
+
+
+# =========================
+# Composer
+# =========================
+composer.lock
+
+# =========================
+# Bootstrap y jQuery (si usas npm o composer)
+# =========================
+public/assets/vendor/*
+!public/assets/vendor/index.html
+
+# =========================
+# Otros
+# =========================
+*.bak
+*.tmp
+*.log
